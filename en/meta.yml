@@ -1,0 +1,11 @@
+title: challenge-discussion
+hero_image: images/banner.png
+description: challenge-discussion description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-10-20"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
