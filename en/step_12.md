@@ -17,6 +17,6 @@ set rotation style [left-right v] // Stop the butterfly going upside down when m
 forever
 point towards (mouse-pointer v) // Point towards the mouse or where you touch the tablet screen
 move [3] steps // Move 3 steps towards the mouse pointer
-if on edge, bounce // If the sprite is touching the edge, point in the opposite direction to keep the butterfly fully on the Stage.
+if on edge, bounce // If the sprite is touching the edge, point in the opposite direction\n to keep the butterfly fully on the Stage.
 end
 ```
