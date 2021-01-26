@@ -11,12 +11,13 @@ If you are following the [Look after yourself](https://projects.raspberrypi.org/
 If you have completed all the projects in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway then move on to the next Challenge project, [Project name](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make an interactive animation using `variables`{:class="block3variables"}.
 
 
+
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // Stop the butterfly going upside down when moving left
 forever
 point towards (mouse-pointer v) // Point towards the mouse or where you touch the tablet screen
 move [3] steps // Move 3 steps towards the mouse pointer
-if on edge, bounce // If the sprite is touching the edge, point in the opposite direction<br/> to keep the butterfly fully on the Stage.
+if on edge, bounce // If the sprite is touching the edge, point in the opposite direction to keep the butterfly fully on the Stage.
 end
 ```
