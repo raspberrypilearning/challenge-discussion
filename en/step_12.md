@@ -14,13 +14,12 @@ If you have completed all the projects in the [Look after yourself](https://proj
 <code class="blocks">when flag clicked</code><code class="blocks">forever</code><code class="blocks">point towards (mouse-pointer v)</code><code class="blocks">if on edge, bounce</code><code class="blocks">say [Hello!] for (2) seconds</code>
 
 ```blocks3
-when flag clicked
-set rotation style [left-right v] // Stop the butterfly going upside down when moving left
-forever
-point towards (mouse-pointer v) // Point towards the mouse or where you touch the tablet screen
-move [3] steps // Move 3 steps towards the mouse pointer
-if on edge, bounce // If the sprite is touching the edge, point in the opposite direction to keep the butterfly fully on the Stage.
-end
+when this sprite clicked
+think [Hmm...] // thought bubble
+change [color v]effect by [100] // number up to 200
+wait [1] secs
+think [] // hide bubble
+clear graphic effects // back to normal colour
 ```
 <script>
 scratchblocks.renderMatching("code.blocks", {
