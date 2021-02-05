@@ -10,6 +10,7 @@ If you are following the [Look after yourself](https://projects.raspberrypi.org/
 
 If you have completed all the projects in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway then move on to the next Challenge project, [Project name](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make an interactive animation using `variables`{:class="block3variables"}.
 
+
 <code class="blocks">when flag clicked</code><code class="blocks">forever</code>
 
 ```blocks3
@@ -21,3 +22,9 @@ move [3] steps // Move 3 steps towards the mouse pointer
 if on edge, bounce // If the sprite is touching the edge, point in the opposite direction to keep the butterfly fully on the Stage.
 end
 ```
+<script>
+scratchblocks.renderMatching("code.blocks", {
+  inline: true,
+  // Repeat `style` and `languages` options here.
+});
+</script>
