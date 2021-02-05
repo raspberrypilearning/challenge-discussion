@@ -11,7 +11,7 @@ If you are following the [Look after yourself](https://projects.raspberrypi.org/
 If you have completed all the projects in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway then move on to the next Challenge project, [Project name](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make an interactive animation using `variables`{:class="block3variables"}.
 
 
-<code class="blocks">when flag clicked</code><code class="blocks">forever</code><code class="blocks">point towards (mouse-pointer v)</code><code class="blocks">if on edge, bounce</code><code class="blocks">say [Hello!] for (2) seconds</code>
+<code class="blocks" style="background-color: white">when flag clicked</code><code class="blocks" style="background-color: white">forever</code><code class="blocks" style="background-color: white">point towards (mouse-pointer v)</code><code class="blocks" style="background-color: white">if on edge, bounce</code><code class="blocks" style="background-color: white">say [Hello!] for (2) seconds</code>
 
 ```blocks3
 when this sprite clicked
