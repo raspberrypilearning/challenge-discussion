@@ -25,6 +25,7 @@ end
 <script>
 scratchblocks.renderMatching("code.blocks", {
   inline: true,
+  style:     'scratch3',   // Optional, defaults to 'scratch2'.
   // Repeat `style` and `languages` options here.
 });
 </script>
