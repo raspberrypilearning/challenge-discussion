@@ -10,7 +10,7 @@ If you are following the [Look after yourself](https://projects.raspberrypi.org/
 
 If you have completed all the projects in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway then move on to the next Challenge project, [Project name](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make an interactive animation using `variables`{:class="block3variables"}.
 
-
+<code class="blocks">when flag clicked</code><code class="blocks">forever</code>
 
 ```blocks3
 when flag clicked
