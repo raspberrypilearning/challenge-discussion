@@ -30,7 +30,7 @@ change [color v] effect by [100] // number up to 200 number up to 200 number up 
 <code class="blocks" style="background-color: white">when flag clicked</code><code class="blocks" style="background-color: white">forever // inline comment</code><code class="blocks">point towards (mouse-pointer v)</code>
 
 <style>
-code block {
+.blocks {
   background-color:white;
 }
 </style>
