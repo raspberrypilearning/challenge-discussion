@@ -1,4 +1,4 @@
-## What next?
+## Inline code blocks and comments
 
 In this project, you will use <code class="blocks" style="background-color: white">say [Hello!] for (2) seconds</code> to make your sprite show a speech bubble.
 
