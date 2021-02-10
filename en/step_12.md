@@ -16,11 +16,17 @@ If you have completed all the projects in the [Look after yourself](https://proj
 ```blocks3
 when this sprite clicked
 think [Hmm...] // thought bubble
-change [color v]effect by [100] // number up to 200
+change [color v] effect by [100] // number up to 200
 wait [1] secs
 think [] // hide bubble
 clear graphic effects // back to normal colour
 ```
+
+A really long comment:
+```blocks3
+change [color v] effect by [100] // number up to 200 number up to 200 number up to 200 number up to 200 number up to 200
+```
+
 <script>
 scratchblocks.renderMatching("code.blocks", {
   inline: true,
