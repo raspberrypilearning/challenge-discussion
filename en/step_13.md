@@ -15,19 +15,15 @@
       display: none;
     }
 
-    .c-project__header {
-      overflow:auto;
-    }
 
     .c-project__header img {
-      width: 200px;
+      max-width: 200px;
       height: auto;
     }
 
     .c-project-header__illustration
     {
       float: right;
-      width: 150px;
     }
 
     .c-admin-banner
@@ -53,6 +49,7 @@
       border: 4px solid green;
       border-radius: 20px;
       padding: 20px;
+      overflow: auto;
     }
 
    .c-project-header__illustration::after {
