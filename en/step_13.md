@@ -6,6 +6,12 @@
 
 @media print
 {    
+
+    .u-no-print
+    {
+      display: none !important;
+    }
+
     .scratch-preview
     {
       display: none !important;
@@ -94,8 +100,8 @@
     }
 
     .c-project-panel--ingredient {
-      border-top: 5px dashed grey;
-      border-bottom: 5px dashed grey;
+      border-top: 2px dashed grey;
+      border-bottom: 2px dashed grey;
       padding: 0px 15px 5px 15px;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -110,8 +116,8 @@
     }
 
     .c-project-task__body {
-      border-top: 1px solid green;
-      border-bottom: 1px solid green;
+      border-top: 4px solid green;
+      border-bottom: 4px solid green;
     }
 
     .c-project-task__checkbox {
