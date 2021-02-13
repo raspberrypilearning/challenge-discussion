@@ -19,7 +19,6 @@
     {
       float: right;
       width: 150px;
-      clear: both;
     }
 
     .c-admin-banner
@@ -47,13 +46,17 @@
       padding: 20px;
     }
 
+   .c-project-header__illustration::after {
+     clear: both;
+   }
+
    h1::before {
       content: url(/assets/logomark-6c86cbce0a3461b707634ebd68a1618020ed632442c4b0339c81ae3a6816e326.svg);
     }
 
     h1 {
       font-size: 24pt;
-      clear: both;
+      float: left;
     }
 
     h2 {
