@@ -22,7 +22,13 @@
     }
 
     .intro {
-      float: left;
+      display: flex; 
+      flex-wrap: wrap;
+
+    }
+    .intro_text {
+      flex-basis: 50%; 
+      flex-grow: 1
     }
 
     .c-project__header img {
@@ -145,6 +151,7 @@
 ## Introduction
 
 <div class="intro">
+<div class="intro_text">
 
 You will create sprites that ‘emote’ to share their thoughts or feelings. 
 
@@ -178,12 +185,14 @@ What happens if you click on one sprite and then quickly click on another?
 
 --- print-only ---
 
-<div style="float: right">
+<div>
 ![Complete project](images/showcase_static.png)
 </div>
 <br clear="both"/>
 
 --- /print-only ---
+
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
 **Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
