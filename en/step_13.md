@@ -11,8 +11,17 @@
       display: none !important;
     }
 
-    . c-site-header {
+    .c-site-header {
       display: none;
+    }
+
+    .c-project__header {
+      overflow:auto;
+    }
+
+    .c-project__header img {
+      width: 200px;
+      height: auto;
     }
 
     .c-project-header__illustration
