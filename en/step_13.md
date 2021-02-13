@@ -56,8 +56,10 @@ h1::before {
     }
 
     h3 {
+      margin-top: 5px;
       border-bottom: 1px solid grey;
       font-size: 22pt;
+      padding: 2px 5px 2px 5px;
     }
 
     h4 {
