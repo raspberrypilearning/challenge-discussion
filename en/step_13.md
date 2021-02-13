@@ -48,7 +48,7 @@
     .c-project__header {
       border: 4px solid green;
       border-radius: 20px;
-      padding: 40px;
+      padding: 15px;
       overflow: auto;
     }
 
@@ -110,7 +110,12 @@
     }
 
     .c-project-task__body {
-      border-right: 1px solid green;
+      border-top: 1px solid green;
+      border-bottom: 1px solid green;
+    }
+
+    .c-project-task__checkbox {
+      right: -20px;
     }
 
     .c-project-panel--save {
