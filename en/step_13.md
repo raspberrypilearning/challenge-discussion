@@ -21,6 +21,9 @@
       display: none;
     }
 
+    .intro {
+      float: left;
+    }
 
     .c-project__header img {
       max-width: 300px;
@@ -140,9 +143,8 @@
 </style>
 
 ## Introduction
---- print-only ---
-<div style="float:left;">
---- /print-only ---
+
+<div class="intro"/>
 
 You will create sprites that ‘emote’ to share their thoughts or feelings. 
 
@@ -153,9 +155,7 @@ You will:
 + make the sprites communicate using `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} code blocks,
 + use the **Paint editor** to change a **costume**.
 
---- print-only ---
 </div>
---- /print-only ---
 
 --- no-print ---
 
@@ -177,10 +177,12 @@ What happens if you click on one sprite and then quickly click on another?
 --- /no-print ---
 
 --- print-only ---
+
 <div style="float: right">
 ![Complete project](images/showcase_static.png)
 </div>
 <br clear="both"/>
+
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
