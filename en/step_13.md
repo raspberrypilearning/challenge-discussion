@@ -11,10 +11,15 @@
       display: none !important;
     }
 
+    . c-site-header {
+      display: none;
+    }
+
     .c-project-header__illustration
     {
       float: right;
-      width: 200px;
+      width: 150px;
+      clear: both;
     }
 
     .c-admin-banner
@@ -24,14 +29,13 @@
 
     img
     {
-      max-width: 400px;
-      float: right;
+      max-width: 500px;
     }
 
     a::after{ content: " (" attr(href) ") "; } 
 
     body {
-      font: 14pt Georgia, "Times New Roman", Times, serif;
+      font: 14pt Helvetica, Arial, Sans-Serif;
       line-height: 1.3;
       background: #fff !important;
       color: #000;
@@ -49,6 +53,7 @@
 
     h1 {
       font-size: 24pt;
+      clear: both;
     }
 
     h2 {
