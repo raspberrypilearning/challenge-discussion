@@ -1,11 +1,4 @@
 <style>
-h1::before {
-  content: "Design: \A";
-  font-style: font-style: italic;
-  font-weight: normal;
-  font-size: smaller;
-}
-
 .scratch-preview
 {
   display: none !important;
@@ -32,6 +25,7 @@ h1::before {
     img
     {
       max-width: 400px;
+      float: right;
     }
 
     a::after{ content: " (" attr(href) ") "; } 
@@ -43,10 +37,17 @@ h1::before {
       color: #000;
     }
 
-    h1 {
+    .c-project__header {
       border: 4px solid green;
       border-radius: 20px;
       padding: 20px;
+    }
+
+   h1::before {
+      content: url(/assets/logomark-6c86cbce0a3461b707634ebd68a1618020ed632442c4b0339c81ae3a6816e326.svg);
+    }
+
+    h1 {
       font-size: 24pt;
     }
 
@@ -69,10 +70,11 @@ h1::before {
     }
 
     .c-project-panel--ingredient {
-      border: 2px dashed grey;
+      border: 5px dashed grey;
       border-radius: 8px;
       padding: 0px 15px 5px 15px;
-      margin-top: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     .c-project-panel--save {
