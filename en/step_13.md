@@ -144,7 +144,7 @@
 
 ## Introduction
 
-<div class="intro"/>
+<div class="intro">
 
 You will create sprites that ‘emote’ to share their thoughts or feelings. 
 
