@@ -94,8 +94,8 @@
     }
 
     .c-project-panel--ingredient {
-      border: 5px dashed grey;
-      border-radius: 8px;
+      border-top: 5px dashed grey;
+      border-bottom: 5px dashed grey;
       padding: 0px 15px 5px 15px;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -115,7 +115,7 @@
     }
 
     .c-project-task__checkbox {
-      right: -20px;
+      right: 0px;
     }
 
     .c-project-panel--save {
