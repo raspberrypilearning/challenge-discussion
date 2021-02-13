@@ -27,7 +27,7 @@
 
     }
     .intro_text {
-      flex-basis: 50%; 
+      flex-basis: 40%; 
       flex-grow: 1
     }
 
