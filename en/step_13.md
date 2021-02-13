@@ -69,7 +69,7 @@ h1::before {
 
     .c-project-panel--ingredient {
       border: 1px dashed grey;
-      padding: 0px 5px 5px 5px;
+      padding: 0px 15px 5px 15px;
       margin-top: 5px;
     }
 
@@ -88,6 +88,14 @@ h1::before {
     .c-project-panel--save {
       border: none;
       padding: none;
+    }
+
+    .c-project__menu {
+      display: none;
+    }
+
+    .c-project-task__body {
+      margin-right: 20px;
     }
 }
 </style>
