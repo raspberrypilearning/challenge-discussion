@@ -6,20 +6,25 @@ h1::before {
   font-size: smaller;
 }
 
+.scratch-preview
+{
+  display: none !important;
+}
+
 @media print
 {    
-    scratch-preview
+    .scratch-preview
     {
       display: none !important;
     }
 
-    c-project-header__illustration
+    .c-project-header__illustration
     {
       float: right;
       width: 200px;
     }
 
-    c-admin-banner
+    .c-admin-banner
     {
        display: none !important;
     }
