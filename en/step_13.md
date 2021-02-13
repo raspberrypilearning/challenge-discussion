@@ -17,7 +17,7 @@
 
 
     .c-project__header img {
-      max-width: 200px;
+      max-width: 300px;
       height: auto;
     }
 
@@ -48,7 +48,7 @@
     .c-project__header {
       border: 4px solid green;
       border-radius: 20px;
-      padding: 20px;
+      padding: 40px;
       overflow: auto;
     }
 
@@ -56,20 +56,30 @@
      clear: both;
    }
 
+   .c-project__pagination {
+    display: none;
+   }
+
    h1::before {
-      content: url(/assets/logomark-6c86cbce0a3461b707634ebd68a1618020ed632442c4b0339c81ae3a6816e326.svg);
+      content: url(/assets/logomark-6c86cbce0a3461b707634ebd68a1618020ed632442c4b0339c81ae3a6816e326.svg) "  ";
     }
 
     h1 {
       font-size: 24pt;
       float: left;
+      font: green;
     }
 
     h2 {
-      border-top: 2px solid green;
-      border-bottom: 2px solid green;
+      border-bottom: 4px solid green;
       font-size: 22pt;
+      counter-increment: step;
     }
+
+    h2::before {
+      content: "Step " counter(step) ": ";
+    }
+    
 
     h3 {
       margin-top: 5px;
