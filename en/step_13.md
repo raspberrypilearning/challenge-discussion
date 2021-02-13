@@ -140,6 +140,9 @@
 </style>
 
 ## Introduction
+--- print-only ---
+<div style="float:left;">
+--- /print-only ---
 
 You will create sprites that ‘emote’ to share their thoughts or feelings. 
 
@@ -149,6 +152,10 @@ You will:
 + add sprites and a **backdrop** to set up your project,
 + make the sprites communicate using `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} code blocks,
 + use the **Paint editor** to change a **costume**.
+
+--- print-only ---
+</div>
+--- /print-only ---
 
 --- no-print ---
 
