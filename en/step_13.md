@@ -67,8 +67,12 @@ h1::before {
 
     .c-project-panel--ingredient {
       border: 1px dashed grey;
-      padding: 5px;
+      padding: 0px 5px 5px 5px;
       margin-top: 5px;
+    }
+
+    .c-project-panel--save {
+      background-image: url(/assets/project-save-icon-48c46c36456d406b5b74e2885155279816e4f98463fdb89e79cf2f0ea0904e44.svg));
     }
 
     h1, h2 {
@@ -77,6 +81,11 @@ h1::before {
 
     .c-project-task__body {
       border-right: 1px solid green;
+    }
+
+    .c-project-panel--save {
+      border: none;
+      padding: none;
     }
 }
 </style>
