@@ -67,6 +67,16 @@ h1::before {
 
     .c-project-panel--ingredient {
       border: 1px dashed grey;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    h1, h2 {
+      break-after: avoid-page;
+    }
+
+    .c-project-task__body {
+      border-right: 1px solid green;
     }
 }
 </style>
