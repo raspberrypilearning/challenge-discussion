@@ -28,6 +28,31 @@ h1::before {
     {
        display: none !important;
     }
+
+    img
+    {
+      max-width: 400px;
+    }
+
+    a::after{ content: " (" attr(href) ") "; } 
+
+    body {
+      font: 13pt Georgia, "Times New Roman", Times, serif;
+      line-height: 1.3;
+      background: #fff !important;
+      color: #000;
+    }
+
+    h1 {
+      border-top: 2px solid green;
+      border-bottom: 2px solid green;
+      font-size: 24pt;
+    }
+
+    h2, h3, h4 {
+      font-size: 14pt;
+      margin-top: 25px;
+    }
 }
 </style>
 
