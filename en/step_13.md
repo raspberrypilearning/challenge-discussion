@@ -44,8 +44,9 @@ h1::before {
     }
 
     h1 {
-      border-top: 4px solid green;
-      border-bottom: 4px solid green;
+      border: 4px solid green;
+      border-radius: 20px;
+      padding: 20px;
       font-size: 24pt;
     }
 
@@ -68,7 +69,8 @@ h1::before {
     }
 
     .c-project-panel--ingredient {
-      border: 1px dashed grey;
+      border: 2px dashed grey;
+      border-radius: 8px;
       padding: 0px 15px 5px 15px;
       margin-top: 5px;
     }
@@ -95,7 +97,7 @@ h1::before {
     }
 
     .c-project-task__body {
-      margin-right: 20px;
+      padding-right: 20px;
     }
 }
 </style>
