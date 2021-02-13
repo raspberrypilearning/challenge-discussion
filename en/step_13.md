@@ -1,9 +1,28 @@
 <style>
 h1::before {
-  content: "Make your own: \A";
+  content: "Design: \A";
   font-style: font-style: italic;
   font-weight: normal;
   font-size: smaller;
+}
+
+@media print
+{    
+    scratch-preview
+    {
+      display: none !important;
+    }
+
+    c-project-header__illustration
+    {
+      float: right;
+      width: 200px;
+    }
+
+    c-admin-banner
+    {
+       display: none !important;
+    }
 }
 </style>
 
