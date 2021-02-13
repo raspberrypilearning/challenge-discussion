@@ -37,21 +37,36 @@ h1::before {
     a::after{ content: " (" attr(href) ") "; } 
 
     body {
-      font: 13pt Georgia, "Times New Roman", Times, serif;
+      font: 14pt Georgia, "Times New Roman", Times, serif;
       line-height: 1.3;
       background: #fff !important;
       color: #000;
     }
 
     h1 {
-      border-top: 2px solid green;
-      border-bottom: 2px solid green;
+      border-top: 4px solid green;
+      border-bottom: 4px solid green;
       font-size: 24pt;
     }
 
-    h2, h3, h4 {
+    h2 {
+      border-top: 2px solid green;
+      border-bottom: 2px solid green;
+      font-size: 22pt;
+    }
+
+    h3 {
+      border-bottom: 1px solid grey;
+      font-size: 22pt;
+    }
+
+    h4 {
       font-size: 14pt;
       margin-top: 25px;
+    }
+
+    .c-project-panel--ingredient {
+      border: 1px dashed grey;
     }
 }
 </style>
@@ -90,18 +105,9 @@ What happens if you click on one sprite and then quickly click on another?
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
 
----
-**Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
-
----
-
 <p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
 **Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
 </p>
-
-
-> **Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
-
 
 
 ## Get inspiration
