@@ -170,7 +170,10 @@ What happens if you click on one sprite and then quickly click on another?
 --- /no-print ---
 
 --- print-only ---
+<div style="float: right">
 ![Complete project](images/showcase_static.png)
+</div>
+<br clear="both"/>
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
