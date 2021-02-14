@@ -49,6 +49,7 @@
     img
     {
       max-width: 500px;
+      margin-left: 25px;
     }
 
     a::after{ content: " (" attr(href) ") "; } 
@@ -120,7 +121,7 @@
       background-image: url(/assets/project-save-icon-48c46c36456d406b5b74e2885155279816e4f98463fdb89e79cf2f0ea0904e44.svg));
     }
 
-    h1, h2 {
+    h2 {
       break-after: avoid-page;
     }
 
@@ -145,6 +146,145 @@
     .c-project-task__body {
       padding-right: 20px;
     }
+
+    .c-project-steps__content code.blockcontrol,
+    .c-project-steps__content code.blockdata,
+    .c-project-steps__content code.blockevents,
+    .c-project-steps__content code.blockextension,
+    .c-project-steps__content code.blocklooks,
+    .c-project-steps__content code.blockmoreblocks,
+    .c-project-steps__content code.blockmotion,
+    .c-project-steps__content code.blockoperators,
+    .c-project-steps__content code.blockpen,
+    .c-project-steps__content code.blocksensing,
+    .c-project-steps__content code.blocksound,
+    .c-project-steps__content code.block3control,
+    .c-project-steps__content code.block3events,
+    .c-project-steps__content code.block3extensions,
+    .c-project-steps__content code.block3looks,
+    .c-project-steps__content code.block3motion,
+    .c-project-steps__content code.block3myblocks,
+    .c-project-steps__content code.block3operators,
+    .c-project-steps__content code.block3sensing,
+    .c-project-steps__content code.block3sound,
+    .c-project-steps__content code.block3variables {
+      border-radius: 3px;
+      color: #fff; }
+    .c-project-steps__content code.blockcontrol {
+      background: #e9aa00; }
+    .c-project-steps__content code.blockdata {
+      background: #ff7500; }
+    .c-project-steps__content code.blockevents {
+      background: #d38117; }
+    .c-project-steps__content code.blockextension {
+      background: #4e4a61; }
+    .c-project-steps__content code.blocklooks {
+      background: #9b33d9; }
+    .c-project-steps__content code.blockmoreblocks {
+      background: #71009a; }
+    .c-project-steps__content code.blockmotion {
+      background: #505fd7; }
+    .c-project-steps__content code.blockoperators {
+      background: #00c114; }
+    .c-project-steps__content code.blockpen {
+      background: #00a16f; }
+    .c-project-steps__content code.blocksensing {
+      background: #00a3e6; }
+    .c-project-steps__content code.blocksound {
+      background: #d000c2; }
+    .c-project-steps__content code.block3control {
+      background-color: #ffab19; }
+    .c-project-steps__content code.block3events {
+      background-color: #ffbf00; }
+    .c-project-steps__content code.block3extensions {
+      background-color: #0fbd8c; }
+    .c-project-steps__content code.block3looks {
+      background-color: #9966ff; }
+    .c-project-steps__content code.block3motion {
+      background-color: #4c97ff; }
+    .c-project-steps__content code.block3myblocks {
+      background-color: #ff6680; }
+    .c-project-steps__content code.block3operators {
+      background-color: #59c059; }
+    .c-project-steps__content code.block3sensing {
+      background-color: #5cb1d6; }
+    .c-project-steps__content code.block3sound {
+      background-color: #cf63cf; }
+    .c-project-steps__content code.block3variables {
+      background-color: #ff8c1a; }
+    .c-project-steps__content code.crumblebasic {
+      background-color: #ff5e3a; }
+    .c-project-steps__content code.crumbleinputoutput {
+      background-color: #007aff; }
+    .c-project-steps__content code.crumblesparkles {
+      background-color: #5856d6; }
+    .c-project-steps__content code.crumblecontrol {
+      background-color: #ff9500; }
+    .c-project-steps__content code.crumblevariables {
+      background-color: #c86edf; }
+    .c-project-steps__content code.crumbleoperators {
+      background-color: #4cd964; }
+    .c-project-steps__content code.blockscad3dshapes {
+      background-color: #006205; }
+    .c-project-steps__content code.blockscad2dshapes {
+      background-color: #209303; }
+    .c-project-steps__content code.blockscadtransforms {
+      background-color: #26549e; }
+    .c-project-steps__content code.blockscadsetops {
+      background-color: #7450e2; }
+    .c-project-steps__content code.blockscadmath {
+      background-color: #0185e1; }
+    .c-project-steps__content code.blockscadlogic {
+      background-color: #bf6920; }
+    .c-project-steps__content code.blockscadloops {
+      background-color: #612485; }
+    .c-project-steps__content code.blockscadtext {
+      background-color: #727272; }
+    .c-project-steps__content code.blockscadvariables {
+      background-color: #8c7149; }
+    .c-project-steps__content code.blockscadmodules {
+      background-color: #900355; }
+    .c-project-steps__content code.blockscadexperimental {
+      background-color: #000000; }
+    .c-project-steps__content code.microbitbasic {
+      background-color: #1e90ff; }
+    .c-project-steps__content code.microbitinput {
+      background-color: #d400d4; }
+    .c-project-steps__content code.microbitmusic {
+      background-color: #e63022; }
+    .c-project-steps__content code.microbitled {
+      background-color: #5c2d91; }
+    .c-project-steps__content code.microbitradio {
+      background-color: #e3008c; }
+    .c-project-steps__content code.microbitloops {
+      background-color: #00aa00; }
+    .c-project-steps__content code.microbitlogic {
+      background-color: #00a4a6; }
+    .c-project-steps__content code.microbitvariables {
+      background-color: #dc143c; }
+    .c-project-steps__content code.microbitmath {
+      background-color: #9400d3; }
+    .c-project-steps__content code.microbitadvanced {
+      background-color: #00272b; }
+    .c-project-steps__content code.microbitfunctions {
+      background-color: #3455db; }
+    .c-project-steps__content code.microbitarrays {
+      background-color: #e65722; }
+    .c-project-steps__content code.microbittext {
+      background-color: #b8860b; }
+    .c-project-steps__content code.microbitgame {
+      background-color: #007a4b; }
+    .c-project-steps__content code.microbitimages {
+      background-color: #7600a8; }
+    .c-project-steps__content code.microbitpins {
+      background-color: #b22222; }
+    .c-project-steps__content code.microbitserial {
+      background-color: #002050; }
+    .c-project-steps__content code.microbitcontrol {
+      background-color: #333333; }
+    .c-project-steps__content code.microbitextensions {
+      background-color: #717171; }
+
 }
 </style>
 
@@ -198,6 +338,10 @@ What happens if you click on one sprite and then quickly click on another?
 **Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
 </p>
 
+
+<blockquote>
+**emotes** are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
+</blockquote>
 
 ## Get inspiration
 
