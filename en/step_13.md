@@ -44,12 +44,15 @@
     }
 
     .text-image {
-      overflow: auto;
-      clear: both;
+     overflow: auto;
+     text-align: justify;
+	   display: flex;
+     clear: both;
+
     }
 
     .text-image img {
-      float: right;
+      margin-left: 15px;
     }
 
     .c-project__header img {
@@ -1227,7 +1230,7 @@ title: Copy sprite code
 
 ---
 
-<div class-="text-image">
+<div class="text-image">
 In the Sprite menu, go to **Choose a Sprite** and select your second sprite.
 
 Click the first sprite and go to its **Code** tab. Drag the code that is in the first sprite to the second sprite. You may have one script that starts with `when the green flag clicked`{:class="block3events"} as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure you copy **all** the code scripts that you have created. 
