@@ -190,7 +190,8 @@
     .c-project-steps__content code.block3sound,
     .c-project-steps__content code.block3variables {
       border-radius: 3px;
-      color: #fff; }
+      color: #fff; 
+      color-adjust: exact;}
     .c-project-steps__content code.blockcontrol {
       background: #e9aa00; }
     .c-project-steps__content code.blockdata {
@@ -355,13 +356,9 @@ What happens if you click on one sprite and then quickly click on another?
 
 </div>
 <p style="border-left: solid; border-width:10px; border-color: #f3524f; padding: 10px;">
-**Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
+**emotes** are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
 </p>
 
-
-<blockquote>
-**emotes** are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
-</blockquote>
 
 ## Get inspiration
 
@@ -416,6 +413,7 @@ Now it's time to start working on your own project. You may be bursting with ide
 
 --- task ---
 
+<div class="text-image">
 Open a [new Scratch project](https://scratch.mit.edu/projects/editor){:target=”_blank”}, to look at the range of sprites and backdrops, and take 5 minutes to think about **your** Make a difference project. 
 
 + What mood do you want to create? Relaxing, Energising, Funny?
@@ -424,6 +422,7 @@ Open a [new Scratch project](https://scratch.mit.edu/projects/editor){:target=�
 + Maybe you will just start with one sprite and add more if you have time.
 
 ![Image with sprites and backdrops](images/sprite-backdrop.png)
+</div>
 
 --- /task ---
 
@@ -793,9 +792,11 @@ when flag clicked
 set size to (50) %
 ```
 
+<div class="text-image">
 You can also quickly set the size of a sprite by changing its Size under the Stage:
 
 ![Sprite Size setting highlighted](images/spriteSize.png){:width="400px"}
+</div>
 
 --- /collapse ---
 
@@ -1001,6 +1002,8 @@ Some Scratch sprites just have one costume or have multiple sprites that don't w
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
+<div class="text-image">
+
 Switch to the Costumes tab for your sprite. 
 
 The **Robot** sprite comes with costumes for three different robots and we only want to use one of them. Delete any costumes that you will not use in your animation. 
@@ -1011,11 +1014,13 @@ Make small changes to the costume such as moving, rotating or changing all or pa
 
 If your costume uses Vector graphics then you can select parts of a costume to change. 
 
-![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
-
 You can duplicate the costume again and make more changes to add more 'frames' to your animation.
 
 You can now use your costumes in a simple sprite animation.
+
+![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
+</div>
+
 
 --- /collapse ---
 
@@ -1221,11 +1226,14 @@ Your second sprite has exactly the same code as your first sprite. Do not run th
 title: Copy sprite code
 
 ---
+
+<div class-="text-image">
 In the Sprite menu, go to **Choose a Sprite** and select your second sprite.
 
 Click the first sprite and go to its **Code** tab. Drag the code that is in the first sprite to the second sprite. You may have one script that starts with `when the green flag clicked`{:class="block3events"} as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure you copy **all** the code scripts that you have created. 
 
 ![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
+</div>
 
 Your second sprite has exactly the same code as your first sprite. Do not run the program until you have begun to alter the second sprite - you will not see the second sprite because it is sitting underneath the first sprite.
 
@@ -1253,17 +1261,18 @@ title: Layers
 ---
 There are two ways to create layering.
 
+<div class="text-image">
 Either, in the Stage area, click on the sprite you want as the front layer. Drag it over the front of the other sprite. This layering will stay when you run the program next time.
 
 ![Image showing how to drag to create layering](images/challenge1-change-layers.gif){:width="300px"}
-
-
+</div>
+<div class="text-image">
 Or, use a `go to front layer`{:class="block3looks"} block to the relevant sprite and select either a drop down `front`{:class="block3looks"} or `back`{:class="block3looks"} and add it to the set-up under a `when green flag clicked`{:class="block3events"} block.
 
 ```blocks3
 go to [front v] layer
 ```
-
+</div>
 --- /collapse ---
 
 --- /task ---
