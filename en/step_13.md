@@ -1185,19 +1185,18 @@ title: Duplicate a sprite
 ---
 
 <div class="wrap-content">
-<div class="wrap-item">
 Right click on your first sprite in the Sprite list below the Stage (or if you are using a tablet, tap and hold):
 ![Image right click first sprite](images/challenge1-right-click-sprite.png){:width="300px"}
 </div>
-<div class="wrap-item">
+<div class="wrap-content">
 Select 'duplicate'. This will create a copy of your first 1 sprite with the suffix '2':
 ![Image duplicate sprite](images/challenge1-duplicate-sprite.png){:width="300px"}
 </div>
-<div class="wrap-item">
+<div class="wrap-content">
 Rename your sprite:
 ![Image rename sprite](images/challenge1-rename-sprite.png){:width="300px"}
 </div>
-<div class="wrap-item">
+<div class="wrap-content">
 Your sprite's name will change in the Sprite list:
 ![Image change name in list](images/challenge1-sprite-list.png){:width="300px"}
 </div>
