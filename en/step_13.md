@@ -26,9 +26,15 @@
       flex-wrap: wrap;
 
     }
+
     .intro_text {
       flex-basis: 40%; 
       flex-grow: 1
+    }
+
+    .wrap-content {
+      display: flex; 
+      flex-wrap: wrap;
     }
 
     .c-project__header img {
@@ -62,7 +68,7 @@
     }
 
     .c-project__header {
-      border: 4px solid green;
+      border: 4px solid #53cf63;
       border-radius: 20px;
       padding: 15px;
       overflow: auto;
@@ -83,11 +89,11 @@
     h1 {
       font-size: 24pt;
       float: left;
-      font: green;
+      font: #53cf63;
     }
 
     h2 {
-      border-bottom: 4px solid green;
+      border-bottom: 4px solid #53cf63;
       font-size: 22pt;
       counter-increment: step;
     }
@@ -126,8 +132,8 @@
     }
 
     .c-project-task__body {
-      border-top: 4px solid green;
-      border-bottom: 4px solid green;
+      border-top: 4px solid #53cf63;
+      border-bottom: 4px solid #53cf63;
     }
 
     .c-project-task__checkbox {
@@ -333,8 +339,7 @@ What happens if you click on one sprite and then quickly click on another?
 --- /print-only ---
 
 </div>
-
-<p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
+<p style="border-left: solid; border-width:10px; border-color: #f3524f; padding: 10px;">
 **Did you know?** 'emotes' are a way of showing the personality of a character in a game. They can use speech, sounds, movement and graphic effects, just like in Scratch. Do you play any games that use emotes?
 </p>
 
@@ -840,12 +845,13 @@ Go to the **Fill tool** and select the colour. It will automatically fill the sh
 
 Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
 
+<div class="wrap-content">
 ![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
 
 ![Image showing shape colour changing](images/challenge1-change-shape-colour.png){:width="300px"}
 
 ![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
-
+</div>
 
 --- /collapse ---
 
