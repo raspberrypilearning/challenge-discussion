@@ -35,7 +35,6 @@
     .wrap-content {
       display: flex; 
       flex-wrap: wrap;
-      justify-content: space-between;
       align-items: top;
     }
 
@@ -45,8 +44,8 @@
     }
 
     .text-image {
+      overflow: auto;
       clear: both;
-      margin-bottom: 10px;
     }
 
     .text-image img {
