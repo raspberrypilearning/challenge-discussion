@@ -36,6 +36,7 @@
       display: flex; 
       flex-wrap: wrap;
       justify-content: space-between;
+      align-items: top;
     }
 
     .wrap-item {
