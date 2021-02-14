@@ -44,12 +44,12 @@
       flex-grow: 1
     }
 
-    .textimage {
+    .text-image {
       clear: both;
       margin-bottom: 10px;
     }
 
-    .textimage img {
+    .text-image img {
       float: right;
     }
 
