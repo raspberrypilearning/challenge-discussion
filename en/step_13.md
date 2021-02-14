@@ -44,6 +44,15 @@
       flex-grow: 1
     }
 
+    .textimage {
+      clear: both;
+      margin-bottom: 10px;
+    }
+
+    .textimage img {
+      float: right;
+    }
+
     .c-project__header img {
       max-width: 300px;
       height: auto;
@@ -1186,23 +1195,23 @@ title: Duplicate a sprite
 
 ---
 
-<div class="wrap-content">
+<div class="text-image">
 Right click on your first sprite in the Sprite list below the Stage (or if you are using a tablet, tap and hold):
 ![Image right click first sprite](images/challenge1-right-click-sprite.png){:width="300px"}
 </div>
-<div class="wrap-content">
+<div class="text-image">
 Select 'duplicate'. This will create a copy of your first 1 sprite with the suffix '2':
 ![Image duplicate sprite](images/challenge1-duplicate-sprite.png){:width="300px"}
 </div>
-<div class="wrap-content">
+<div class="text-image">
 Rename your sprite:
 ![Image rename sprite](images/challenge1-rename-sprite.png){:width="300px"}
 </div>
-<div class="wrap-content">
+<div class="text-image">
 Your sprite's name will change in the Sprite list:
 ![Image change name in list](images/challenge1-sprite-list.png){:width="300px"}
 </div>
-</div>
+
 Your second sprite has exactly the same code as your first sprite. Do not run the program until you have begun to alter the second sprite - you will not see the second sprite because it is sitting underneath the first sprite.
 
 --- /collapse ---
