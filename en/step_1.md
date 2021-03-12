@@ -35,6 +35,33 @@ What happens if you click on one sprite and then quickly click on another?
 
 --- /task ---
 
+--- hints ---
+
+--- hint ---
+**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /hint ---
+
+--- hint ---
+**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /hint ---
+
+--- hint ---
+**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
+</div>
+--- /hint ---
+
+--- /hints ---
+
 --- /no-print ---
 
 --- print-only ---
