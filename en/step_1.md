@@ -37,6 +37,10 @@ What happens if you click on one sprite and then quickly click on another?
 
 --- hints ---
 
+---
+title: Get inspiration
+---
+
 --- hint ---
 **Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
