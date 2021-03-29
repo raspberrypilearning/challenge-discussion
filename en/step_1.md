@@ -9,7 +9,9 @@ h1::before {
 
 ## Introduction
 
-You will create sprites that ‘emote’ to share their thoughts or feelings. 
+You will create ssprites that ‘emote’ to share their thoughts or feelings. 
+
+<mark>testing</mark>
 
 A **sprite** is a character or object in a Scratch project. A sprite can have code, costumes and sounds to change the way it looks and what it does. 
 
