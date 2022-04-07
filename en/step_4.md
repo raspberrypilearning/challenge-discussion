@@ -1,5 +1,17 @@
 ## Animate using motion
 
+<script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+
+<script type="text/p5">
+function setup() {
+  createCanvas(100, 100);
+}
+
+function draw() {
+  background(255, 0, 200);
+}
+</script>
+
 Now it's time to get your first sprite moving. Start with one sprite and then add more. 
 
 Each sprite will `move`{:class="block3motion"} within a <span class="keyword">`forever`{:class="block3control"} block<span class="definition">Runs the code blocks inside it forever, or until you click the red stop button above the Stage.</span></span> so that it keeps moving.
